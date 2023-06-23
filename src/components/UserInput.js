@@ -36,7 +36,7 @@ const UserInput = ({ onCalculate }) => {
           <input
             type="number"
             id="current-savings"
-            value={userInput.currentSavings}
+            value={userInput["current-savings"]}
             onChange={({ target }) =>
               inputChangeHandler("current-savings", target.value)
             }
